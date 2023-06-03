@@ -25,9 +25,6 @@ class ListOfDevicesFragment: Fragment() {
     private val viewModel by viewModels<ListOfDevicesViewModel>()
     private val adapterListOfDevices = ListOfDevicesAdapter()
 
-    companion object {
-        val device = "DEVICE"
-    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentListOfDevicesBinding.inflate(inflater,container,false)
@@ -39,24 +36,16 @@ class ListOfDevicesFragment: Fragment() {
         binding.rvOne.adapter = adapterListOfDevices
         adapterListOfDevices.setDevices(viewModel.listDeviceData.value!!)
 
-
-
         adapterListOfDevices.setClickListener { device ->
             parentFragmentManager.commit{
-                //val args = bundleOf(device to device)
                 val fragment = device.nextFragment
                 val activity = requireActivity() as MainActivity
                 activity.navTo(device.nextFragment)
 
-//                replace(R.id.flContainer, fragment)
             }
         }
 
-//        viewModel.listDeviceData.observe(viewLifecycleOwner) {
-//            it?.let { listDevice ->
-//                adapterListOfDevices.setDevices(listDevice)
-//            }
-//        }
+
     }
 
     override fun onDestroy() {

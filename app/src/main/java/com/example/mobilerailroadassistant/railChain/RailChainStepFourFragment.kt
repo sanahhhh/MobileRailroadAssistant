@@ -6,13 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mobilerailroadassistant.R
-import com.example.mobilerailroadassistant.databinding.FragmentRailChainStepOneBinding
-import com.example.mobilerailroadassistant.listOfDevices.ListOfDevicesFragment
+import com.example.mobilerailroadassistant.databinding.FragmentRailChainStepFourBinding
+import com.example.mobilerailroadassistant.databinding.FragmentRailChainStepThreeBinding
 
-class RailChainStepOneFragment : Fragment() {
 
-    private var _binding: FragmentRailChainStepOneBinding? = null
-    private val binding: FragmentRailChainStepOneBinding
+class RailChainStepFourFragment : Fragment() {
+
+    private var _binding: FragmentRailChainStepFourBinding? = null
+    private val binding: FragmentRailChainStepFourBinding
         get() = _binding ?: throw RuntimeException("FragmentRailChainStepOne == null")
 
     override fun onCreateView(
@@ -20,20 +21,20 @@ class RailChainStepOneFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRailChainStepOneBinding.inflate(inflater, container,false)
+        _binding = FragmentRailChainStepFourBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.oneRailChain1.setOnClickListener {
-            moveToStepTwo()
+        binding.belowOrAbsent4.setOnClickListener {
+            moveToStepFive()
         }
     }
 
-    private fun moveToStepTwo() {
+    private fun moveToStepFive() {
         requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, RailChainStepTwoFragment())
+            .replace(R.id.main_container, RailChainStepFiveFragment())
             .commit()
     }
 
