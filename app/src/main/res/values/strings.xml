@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MobileRailroadAssistant</string>
+    <string name="blank">пустой</string>
+    <string name="mobile_assistant">Мобильный помощник</string>
+    <string name="version">v-18.09.03</string>
+    <string name="logOn">Войти</string>
+    <string name="email">Введите логин/email</string>
+    <string name="password">Введите пароль</string>
+    <string name="string_SCBist">СЦБист</string>
+    <string name="logOut">Выйти</string>
+    <string name="RZHD">РЖД</string>
+    <string name="search">Поиск включен</string>
+    <string name="ready">Готово</string>
+    <string name="more">Далее</string>
+
+    <string name="failure_search_algorithm">Алгоритм поиска отказа</string>
+
+
+                                            // РЦ
+    <string name="how_many_rail_chains_have_false_occupancy">СКОЛЬКО РЦ ИМЕЮТ ЛОЖНУЮ ЗАНЯТОСТЬ?</string>
+    <string name="all_rail_chains">Все РЦ</string>
+    <string name="group_of_rail_chains">Группа РЦ (Более двух)</string>
+    <string name="two_adjacent_rail_chains">две смежные РЦ</string>
+    <string name="one_rail_chain">Одна РЦ</string>
+
+    <string name="occupancy_light">ЛАМПОЧКА ЗАНЯТОСТИ РЦ</string>
+    <string name="lights_up_all_the_time">горит постоянно</string>
+    <string name="goes_out_from_time_to_time">периодически гаснет</string>
+
+    <string name="voltage_on_the_measuring_panel_terminals_relay_end">НАПРЯЖЕНИЕ НА КЛЕММАХ ИЗМЕРИТЕЛЬНОЙ ПАНЕЛИ, РЕЛЕЙНЫЙ КОНЕЦ</string>
+    <string name="corresponds_to_the_adjustment_table">соответствует регулировочной таблице</string>
+    <string name="below_or_absent">ниже допустимого или отсутствует</string>
+
+    <string name="voltage_at_the_terminals_of_the_cross_stack_relay_end">НАПРЯЖЕНИЕ НА КЛЕММАХ КРОССОВОГО СТАТИВА, РЕЛЕЙНЫЙ КОНЕЦ</string>
+
+    <string name="is_the_ssi_light_on">ГОРИТ ЛАМПОЧКА СЗИ?</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+
+    <string name="voltage_at_the_terminals_of_the_measuring_panel_supply_end">НАПРЯЖЕНИЕ НА КЛЕММАХ ИЗМЕРИТЕЛЬНОЙ ПАНЕЛИ, ПИТАЮЩИЙ КОНЕЦ</string>
+
+    <string name="voltage_at_the_terminals_of_the_crossing_stack_the_supplying_end">НАПРЯЖЕНИЕ НА КЛЕММАХ КРОССОВОГО СТАТИВА, ПИТАЮЩИЙ КОНЕЦ</string>
+    <string name="below_the_allowable">ниже допустимого</string>
+
+    <string name="off_post_damage">ПОВРЕЖДЕНИЕ ВНЕ ПОСТА</string>
+    <string name="further">далее</string>
+
+    <string name="is_the_rail_chain_branched">РЦ РАЗВЕТВЛЕННАЯ?</string>
+
+    <string name="voltage_on_the_rails_of_the_relay_ends_of_branches">НАПРЯЖЕНИЕ НА РЕЛЬСАХ РЕЛЕЙНЫХ КОНЦОВ ОТВЕТВЛЕНИЙ</string>
+    <string name="missing_on_all_branches">отсутствует на всех ответвлениях</string>
+    <string name="there_are_on_all_branches">есть на всех ответвлениях</string>
+    <string name="missing_on_one_of_the_branches">отсутствует на одном из ответвлений</string>
+
+    <string name="voltage_at_terminals_pya_or_terminals_it">НАПРЯЖЕНИЕ НА КЛЕММАХ ПЯ ИЛИ КЛЕММАХ ИТ</string>
+    <string name="normal_or_above">в норме или выше</string>
+    <string name="none_or_below_normal">отсутствует или ниже нормы</string>
+
+    <string name="the_fuse_in_the_pya">ПЕРЕГОРЕЛ ПРЕДОХРАНИТЕЛЬ В ПЯ</string>
+
+
+                                                    //СТРЕЛКИ
+    <string name="when_turning_the_hand_crank">ПРИ ПОВОРОТЕ СТРЕЛОЧНОЙ РУКОЯТКИ</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="device">Устройство</string>
+</resources>

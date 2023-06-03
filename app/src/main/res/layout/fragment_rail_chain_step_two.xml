@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="@string/failure_search_algorithm"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="50dp"
+            android:padding="30dp"
+            android:text="@string/occupancy_light"
+            android:textColor="#FF0000"
+            android:background="@drawable/textviewdesign_dotted"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <Button
+            android:id="@+id/lights_up_all_the_time2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/lights_up_all_the_time"
+            android:textSize="20sp">
+        </Button>
+
+        <Button
+            android:id="@+id/goes_out_from_time_to_time2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/goes_out_from_time_to_time"
+            android:textSize="20sp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

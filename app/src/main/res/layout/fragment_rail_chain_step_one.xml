@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="@string/failure_search_algorithm"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="50dp"
+            android:padding="15dp"
+            android:text="@string/how_many_rail_chains_have_false_occupancy"
+            android:textColor="#FF0000"
+            android:background="@drawable/textviewdesign_dotted"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <Button
+            android:id="@+id/all_rail_chains1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/all_rail_chains"
+            android:textSize="20sp">
+        </Button>
+
+        <Button
+            android:id="@+id/group_of_rail_chains1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/group_of_rail_chains"
+            android:textSize="20sp">
+        </Button>
+
+        <Button
+            android:id="@+id/two_adjacent_rail_chains1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/two_adjacent_rail_chains"
+            android:textSize="20sp">
+        </Button>
+
+        <Button
+            android:id="@+id/one_rail_chain1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/one_rail_chain"
+            android:textSize="20sp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
