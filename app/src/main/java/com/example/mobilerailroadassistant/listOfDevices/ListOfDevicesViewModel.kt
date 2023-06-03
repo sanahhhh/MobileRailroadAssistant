@@ -1,25 +1,36 @@
 package com.example.mobilerailroadassistant.listOfDevices
 
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.mobilerailroadassistant.LogInAppFragment
+import com.example.mobilerailroadassistant.loggin.LogginFragment
 
 class ListOfDevicesViewModel : ViewModel() {
 
-    val listDevice:MutableList<Devices> = mutableListOf()
+    val listDevice:MutableList<Device> = mutableListOf()
 
-    val listDeviceData:MutableLiveData<List<Devices>> by lazy {
-        MutableLiveData<List<Devices>>(emptyList())
+    val listDeviceData:MutableLiveData<List<Device>> by lazy {
+        MutableLiveData<List<Device>>(emptyList())
     }
 
     init {
-        listDevice.add(Devices("Рельсовая цепь", "Стрелки","Светофоры",
-            "Аппаратура","Кабель","Пульт-табло","УКСПС"))
+//        Devices("Рельсовая цепь", "Стрелки","Светофоры",
+//            "Аппаратура","Кабель","Пульт-табло","УКСПС")
+
+        listDevice.add(Device("ТСКБМ", LogInAppFragment()))
+        listDevice.add(Device("САУТ", LogginFragment()))
 
         listDeviceData.value = listDevice
+
+    }
+
+    fun add()
+    {
     }
 
 
-
+    data class Device(val device : String, val nextFragment: Fragment)
 
     data class Devices(
         val device1: String,
