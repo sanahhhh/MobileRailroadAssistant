@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.SearchView
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
@@ -20,10 +21,11 @@ import com.example.mobilerailroadassistant.railChain.RailChainStepOneFragment
 class ListOfDevicesFragment: Fragment() {
 
     private var _binding: FragmentListOfDevicesBinding? = null
-    private  val binding: FragmentListOfDevicesBinding
+    private val binding: FragmentListOfDevicesBinding
         get() = _binding ?: throw RuntimeException("FragmentListOfDevicesBinding == null")
     private val viewModel by viewModels<ListOfDevicesViewModel>()
     private val adapterListOfDevices = ListOfDevicesAdapter()
+    private lateinit var searchView: SearchView
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -44,7 +46,6 @@ class ListOfDevicesFragment: Fragment() {
 
             }
         }
-
 
     }
 

@@ -19,7 +19,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:drawableEndCompat="@drawable/ic_right_gray">
-
     </TextView>
+
 
 </androidx.cardview.widget.CardView>
