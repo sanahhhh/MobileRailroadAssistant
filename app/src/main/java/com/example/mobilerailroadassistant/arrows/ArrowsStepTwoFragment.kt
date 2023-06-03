@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mobilerailroadassistant.R
 import com.example.mobilerailroadassistant.databinding.FragmentArrowsStepOneBinding
-import com.example.mobilerailroadassistant.databinding.FragmentRailChainStepOneBinding
+import com.example.mobilerailroadassistant.databinding.FragmentArrowsStepTwoBinding
 import com.example.mobilerailroadassistant.listOfDevices.ListOfDevicesFragment
 
-class ArrowsStepOneFragment : Fragment() {
+class ArrowsStepTwoFragment : Fragment() {
 
-    private var _binding: FragmentArrowsStepOneBinding? = null
-    private val binding: FragmentArrowsStepOneBinding
+    private var _binding: FragmentArrowsStepTwoBinding? = null
+    private val binding: FragmentArrowsStepTwoBinding
         get() = _binding ?: throw RuntimeException("FragmentRailChainStepOne == null")
 
     override fun onCreateView(
@@ -21,20 +21,20 @@ class ArrowsStepOneFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentArrowsStepOneBinding.inflate(inflater, container,false)
+        _binding = FragmentArrowsStepTwoBinding.inflate(inflater, container,false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.furtherArrows1.setOnClickListener {
-            moveToStepTwo()
+        binding.yesArrows2.setOnClickListener {
+            moveToStepThree()
         }
     }
 
-    private fun moveToStepTwo() {
+    private fun moveToStepThree() {
         requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, ArrowsStepTwoFragment())
+            .replace(R.id.main_container, ArrowsStepThreeFragment())
             .commit()
     }
 
