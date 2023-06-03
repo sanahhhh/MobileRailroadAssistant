@@ -22,6 +22,7 @@ class LogInAppFragment : Fragment() {
     ): View {
         _binding = FragmentLogInAppBinding.inflate(inflater,container,false)
         return binding.root
+
     }
 
 
@@ -29,6 +30,10 @@ class LogInAppFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.btnImageLog.setOnClickListener {
             logInApp()
+        }
+
+        binding.btnExit.setOnClickListener{
+            android.os.Process.killProcess(android.os.Process.myPid())
         }
 
     }

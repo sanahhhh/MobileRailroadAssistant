@@ -1,37 +1,30 @@
 package com.example.mobilerailroadassistant.listOfDevices
 
-import android.content.Context
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ListView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mobilerailroadassistant.R
 import com.example.mobilerailroadassistant.databinding.ItemListOfDevicesBinding
 
 class ListOfDevicesAdapter: RecyclerView.Adapter<ListOfDevicesAdapter.MyViewHolder>() {
 
-    private var devices: List<ListOfDevicesViewModel.Devices> = emptyList()
+    private var devices: List<ListOfDevicesViewModel.Device> = emptyList()
 
 
-    private var onClickListener: ((ListOfDevicesViewModel.Devices) -> Unit)? = null
+    private var onClickListener: ((ListOfDevicesViewModel.Device) -> Unit)? = null
 
-    fun setClickListener(action: ((ListOfDevicesViewModel.Devices) -> Unit)) {
+    fun setClickListener(action: ((ListOfDevicesViewModel.Device) -> Unit)) {
         onClickListener = action
     }
 
-    fun setDevices(devices: List<ListOfDevicesViewModel.Devices>) {
+    fun setDevices(devices: List<ListOfDevicesViewModel.Device>) {
         this.devices = devices
     }
 
-    class MyViewHolder(val binding: ItemListOfDevicesBinding, val onClickListener: ((ListOfDevicesViewModel.Devices) -> Unit)?) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(device:ListOfDevicesViewModel.Devices) {
-            binding.itemDevice.text = device.device1
+    class MyViewHolder(val binding: ItemListOfDevicesBinding, val onClickListener: ((ListOfDevicesViewModel.Device) -> Unit)?) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(device: ListOfDevicesViewModel.Device) {
+            binding.itemDevice.text = device.device
             binding.root.setOnClickListener {
-                Log.d("kkk","kkkk")
                 onClickListener?.invoke(device)
             }
         }
