@@ -12,6 +12,7 @@
     <string name="search">Поиск включен</string>
     <string name="ready">Готово</string>
     <string name="more">Далее</string>
+    <string name="back_to_list_of_devices">Вернуться к перечню устройств</string>
 
     <string name="failure_search_algorithm">Алгоритм поиска отказа</string>
 
@@ -62,6 +63,17 @@
                                                     //СТРЕЛКИ
     <string name="when_turning_the_hand_crank">ПРИ ПОВОРОТЕ СТРЕЛОЧНОЙ РУКОЯТКИ</string>
 
+    <string name="control_of_the_position_of_the_arrow_is_lost">КОНТРОЛЬ ПОЛОЖЕНИЯ СТРЕЛКИ ТЕРЯЕТСЯ?</string>
+
+    <string name="does_the_ammeter_hand_deflect">СТРЕЛКА АМПЕРМЕТРА ОТКЛОНЯЕТСЯ?</string>
+
+    <string name="is_there_voltage_at_terminals_of_the_pst_unit">НАПРЯЖЕНИЕ НА КЛЕММАХ 114(214)-113(213)-120(220) ИЛИ 19(29)-119(219)-120(220) БЛОКА ПСТ ЕСТЬ?</string>
+
+    <string name="are_the_fuses_in_the_working_circuit_intact">ПРЕДОХРАНИТЕЛИ В РАБОЧЕЙ ЦЕПИ ИСПРАВНЫ?</string>
+
+    <string name="is_there_voltage_on_pins_of_the_fc75_unit">НАПРЯЖЕНИЕ НА ВЫВОДАХ 32–31–33 БЛОКА ФК-75 ЕСТЬ?</string>
+
+    <string name="fk75_unit_malfunction">НЕИСПРАВНОСТЬ БЛОКА ФК-75 ЗАМЕНИТЬ БЛОК ФК-75</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

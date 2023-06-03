@@ -39,7 +39,7 @@
             android:layout_marginTop="90dp"
             android:layout_marginBottom="50dp"
             android:padding="30dp"
-            android:text="@string/the_fuse_in_the_pya"
+            android:text="@string/does_the_ammeter_hand_deflect"
             android:textColor="#FF0000"
             android:background="@drawable/textviewdesign_dotted"
             android:textSize="20sp"
@@ -47,13 +47,23 @@
         </TextView>
 
         <Button
-            android:id="@+id/back_to_list_of_devices_rail_chain"
+            android:id="@+id/yes_arrows3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="#FF0000"
-            android:text="@string/back_to_list_of_devices"
+            android:text="@string/yes"
             android:textSize="20sp">
         </Button>
+
+        <Button
+            android:id="@+id/no_arrows3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF0000"
+            android:text="@string/no"
+            android:textSize="20sp">
+        </Button>
+
 
     </LinearLayout>
 

@@ -39,7 +39,8 @@
             android:layout_marginTop="90dp"
             android:layout_marginBottom="50dp"
             android:padding="30dp"
-            android:text="@string/the_fuse_in_the_pya"
+            android:text="@string/fk75_unit_malfunction"
+            android:lines="2"
             android:textColor="#FF0000"
             android:background="@drawable/textviewdesign_dotted"
             android:textSize="20sp"
@@ -47,7 +48,7 @@
         </TextView>
 
         <Button
-            android:id="@+id/back_to_list_of_devices_rail_chain"
+            android:id="@+id/back_to_list_of_devices_arrows"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="#FF0000"

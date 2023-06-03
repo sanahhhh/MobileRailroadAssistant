@@ -32,7 +32,7 @@ class RailChainStepTwoFragment : Fragment() {
 
     private fun moveToStepThree() {
         requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, RailChainStepTwoFragment())
+            .replace(R.id.main_container, RailChainStepThreeFragment())
             .commit()
     }
 
