@@ -22,6 +22,7 @@ class LogInAppFragment : Fragment() {
     ): View {
         _binding = FragmentLogInAppBinding.inflate(inflater,container,false)
         return binding.root
+
     }
 
 
