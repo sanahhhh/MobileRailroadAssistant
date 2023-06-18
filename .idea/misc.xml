@@ -10,10 +10,12 @@
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_RZHD_background.xml" value="0.2545" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_add.xml" value="0.3365" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3365" />
+        <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_right.xml" value="0.3355" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_right_gray.xml" value="0.326" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/ic_train.xml" value="0.3365" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/line_divider.xml" value="0.3235" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/searchview_background.xml" value="0.3235" />
+        <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/searchviewdesign_background_red.xml" value="0.3235" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/drawable/textviewdesign_dotted.xml" value="0.326" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/add_an_item.xml" value="0.37318840579710144" />
@@ -28,6 +30,7 @@
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_log_in_app.xml" value="0.37318840579710144" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_loggin.xml" value="0.33" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_map.xml" value="0.31794871794871793" />
+        <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_map_kit.xml" value="0.27219202898550726" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_maps.xml" value="0.3875" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_rail_chain_step_eight.xml" value="0.37318840579710144" />
         <entry key="..\:/4 Kotlin/androidProjects/MobileRailroadAssistant/app/src/main/res/layout/fragment_rail_chain_step_eleven.xml" value="0.37318840579710144" />

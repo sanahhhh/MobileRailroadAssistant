@@ -1,14 +1,14 @@
 package com.example.mobilerailroadassistant.loggin
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mobilerailroadassistant.R
-import com.example.mobilerailroadassistant.databinding.FragmentLogInAppBinding
 import com.example.mobilerailroadassistant.databinding.FragmentLogginBinding
-import com.example.mobilerailroadassistant.listOfDevices.ListOfDevicesFragment
+import com.example.mobilerailroadassistant.mapKit.MapKitFragment
 
 class LogginFragment : Fragment() {
 
@@ -29,13 +29,14 @@ class LogginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnOne.setOnClickListener {
-            loggin()
+            Log.d("xxx","xxxx")
+            moveToMap()
         }
     }
 
-    private fun loggin() {
+    private fun moveToMap() {
         requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, ListOfDevicesFragment())
+            .replace(R.id.main_container, MapKitFragment())
             .commit()
     }
 
