@@ -10,8 +10,10 @@
     <string name="logOut">Выйти</string>
     <string name="RZHD">РЖД</string>
     <string name="search">Поиск включен</string>
+    <string name="search_not">Поиск отключен</string>
     <string name="ready">Готово</string>
     <string name="more">Далее</string>
+    <string name="location">Местоположение</string>
     <string name="back_to_list_of_devices">Вернуться к перечню устройств</string>
 
     <string name="failure_search_algorithm">Алгоритм поиска отказа</string>
